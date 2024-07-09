@@ -1,0 +1,111 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: Lato; */
+}
+
+/* shared css */
+.primary-btn {
+    position: relative;
+    width: 177px;
+    height: 64px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* ---------------- */
+header {
+    border: 2px solid red;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header-content {
+    /* Rectangle 8 */
+    position: absolute;
+    width: 100%;
+    height: 850px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 4017px;
+    background: rgba(229, 84, 115, 0.1);
+    border: 2px solid green;
+    
+}
+.for-margin{
+    margin: auto 0;
+}
+header img {
+    /* pngwing 10 */
+    position: absolute;
+    width: 635px;
+    height: 800px;
+    left: 1045px;
+    right: 240px;
+    top: 50px;
+    bottom: 4017px;
+}
+
+#banner-text {}
+
+#banner-text h1 {
+    color: rgb(39, 39, 39);
+    font-family: 'Lato';
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    text-align: left;
+    position: absolute;
+    width: 708px;
+    height: 288px;
+    top: 197px;
+    bottom: 21px;
+    left: 240px;
+}
+
+#banner-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    position: absolute;
+    width: 634px;
+    height: 90px;
+    left: 240px;
+    right: -166px;
+    top: 517px;
+    bottom: -101px;
+}
+#banner-text .shop-now-btn{
+position: absolute;
+left: 240px;
+text-align: left;
+bottom: 15%;
+
+}
